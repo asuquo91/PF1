@@ -614,6 +614,8 @@ height: fit-content;
     padding: 0px;
     margin-left: 0px;;   
 }
+
+
 .sub-section-alternative{
     margin-bottom: 20px;
 }
@@ -645,6 +647,10 @@ h1{
 
 .subtext{
     display: none;
+}
+
+.project-card:hover{
+    transition: none;
 }
 
 }
