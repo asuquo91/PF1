@@ -653,6 +653,19 @@ h1{
     transition: none;
 }
 
+.logo{
+    height: 80px;
+    width: 80px;
+    border-radius: 40px;
+}
+
+.hamburger{
+    font-size: 40px;
+}
+
+
+
+
 }
 
 @keyframes spin-pause {
