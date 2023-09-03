@@ -1,0 +1,646 @@
+
+body {
+    font-family: 'Exo', sans-serif;
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+
+section {
+
+    background-color: white;
+
+
+}
+
+.hero {
+    background-image: url("img/elliott-engelmann-DjlKxYFJlTc-unsplash.jpg");
+    background-size: cover ;
+    background-position: center;
+    height: 100vh;
+    color: white;
+    font-size: 40px;
+}
+
+footer {
+
+    height: 500px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+ul {
+    display: flex;
+    list-style-type: none;
+    width: 700px;
+    justify-content: space-around;
+    margin-right: 5vw;
+    font-size: 30px;
+    margin-top: 50px;
+
+}
+
+ul.show{
+    display: block;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+li {
+    /* width: 200px; */
+    text-decoration: none;
+    
+}
+
+.BE{
+    font-size: 70px;
+}
+
+h1 {
+    font-size: 80px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 30px;
+    margin: 0;
+    font-weight: 300
+}
+
+h3{
+    font-size: 50px
+    
+}
+
+h4{
+    font-size: 30px;
+}
+
+p {
+    margin: 0;
+    font-size: 30px;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.subtext {
+    font-size: 15px;
+    font-weight: 300;
+    margin: 30px;
+    text-decoration: none;
+}
+
+.hero-area {
+    display: flex ;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-text {
+    margin-left: 10vw;
+    margin-top: 150px;
+
+}
+
+.button{
+    width: 150px;
+    height: 40px;
+    border-radius: 22px;
+    background-color: coral;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 300;
+    padding-top: 5px;
+    margin-top: 20px;
+}
+.button:hover{
+    background-color: #ef744b;
+    cursor: pointer;
+}
+
+.button:active{
+    background-color: #a9a9a9;
+    color: #808080;
+}
+
+.socials{
+    margin-top: 150px;
+    margin-right: 20px;
+}
+
+.social:hover{
+    cursor: pointer;
+    transform: scale(1.3);
+    transition: ease-in-out 0.5s;
+}
+
+.logo{
+    height: 120px;
+    margin: 10px;
+    margin-left: 70px;
+    margin-top: 3vh;
+    border: #ffffff solid 3px;
+    padding: 8px;
+    border-radius: 60px;
+}
+
+.social{
+    margin: 20px;
+}
+
+.sub-section{
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+.sub-section-alternative{
+border-top: #201919 solid 3px;
+  display: flex;
+  flex-direction: column;
+  text-align: center; 
+  padding: 80px;
+}
+
+
+.headshot{
+    width: 300px;
+    border-radius: 150px;
+    display: inline-block;
+    align-items: center;
+    margin-top: 80px;
+ 
+
+}
+
+.headshot2{
+    display: none;
+}
+
+.headshot-container {
+    display: flex;
+    align-items: center;
+
+}
+
+.coding-icons{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 100px;
+    margin-bottom: 20px;
+}
+
+.coding-logos {
+    width: 201px;
+    height: 201px
+;
+    animation: spin-pause 6s linear infinite; /* 10s spin + 3s pause */
+
+}
+
+
+
+.project-card {
+    width: 700px;
+    height: 700px;
+    padding: 10px;
+    box-shadow: 5px 5px 20px #888888;
+    margin: 20px;
+    border-radius: 350px;
+    text-decoration: none;
+    display: flex;
+}
+
+.project-card:hover {
+    box-shadow: 5px 5px 20px #888888;
+    cursor: pointer;
+    transform: scale(1.1);
+    color: black;
+    text-size-adjust: 40px;
+    text-decoration: none;
+    transition: ease-in-out 0.6s;
+}
+
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;;
+}
+
+.project-image{
+    width: 200px;
+    height: 200px;
+    border-radius: 125px;
+    border: #201919 solid 3px;
+    text-decoration: none;
+}
+
+/* hr {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+} */
+
+
+/* .project-link{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    border-radius: 100px;
+    background-color: coral;
+    text-align: center;
+    font-weight: 600;
+    padding: 10px;
+
+} */
+
+a:link { text-decoration: none;
+}
+
+
+a:visited { text-decoration: none;
+    color:currentColor; }
+
+
+a:hover { text-decoration: none;
+    color:currentColor; }
+
+
+a:active { text-decoration: none; 
+    color:currentColor;}
+
+
+a {
+    text-decoration: none;
+    color:currentColor;;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 80px;
+
+}
+
+.hamburger{
+display: none;
+
+}
+
+.hamburger:focus{
+    outline: 0;
+}
+
+.subtext-mobile{
+    display: none;
+}
+
+@media (max-width: 1049px) {
+
+    .hamburger{
+        display: block;
+        border: 0;
+        background-color: transparent;
+        color: white;
+        font-size: 80px;
+        margin-right: 50px;
+        margin-top: 30px;
+        align-self: self-start;
+    }
+
+    .coding-logos {
+        width: 80px;
+        margin: 20px;
+        margin-top: 10px;
+        animation: spin-pause 6s linear infinite; /* 10s spin + 3s pause */
+    
+    }
+
+    .about-me-text{
+        font-size: 20px;
+    }
+
+
+
+    .subtext-mobile{
+        display: block;
+        font-size: 15px;
+    }
+
+    h1{
+        font-size: 70px;
+    }
+    ul {
+        display: none;
+        margin: 0px;
+        padding: 0px;
+        margin-left: 25vw;
+        margin-top: 20px;
+        align-items: center;
+        padding: 10px;
+
+   
+    }
+
+    li{
+        margin: 10px;
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+    .headshot{
+        width: 200px;
+        border-radius: 100px;
+        width: 300px;
+        border-radius: 150px;
+        display: inline-block;
+        align-items: center;
+        margin-top: 80px;
+    }
+    .sub-section{
+        padding: 200px;
+    }
+    .project-image{
+        width: 200px;
+        height: 200px;
+        border-radius: 100px;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+.project-card{
+    width: 600px;
+    height: 600px;
+    border-radius: 300px;
+    margin: 10px;
+    text-decoration: none;
+    box-shadow: none;
+}
+
+
+
+.subtext{
+    display: none;
+}
+.sub-section-alternative{
+    padding: 80px;
+    align-items: center;
+}
+
+.project-container{
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+hr{
+    display: none;
+}
+
+.project-card:hover{
+    box-shadow:none ;
+    background-color: none;
+}
+
+.logo{
+    margin: 10px;
+    margin-left: 3vh;
+    margin-top: 3vh;
+}
+
+.headshot{
+    padding: 10px;
+    margin-top: 10px;
+    
+}
+
+}
+
+@media (max-width: 1500px){
+
+
+
+    .about-me-text{
+        font-size: 20px;
+    }
+    .project-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;;
+        
+    }
+    .project-card{
+        width: 700px;
+        height: 700px;
+        border-radius: 350px;
+   
+    }
+
+    .coding-logos {
+        width: 100px;
+        height: 100px;
+        margin: 20px;
+        animation: spin-pause 6s linear infinite; /* 10s spin + 3s pause */
+    
+    }
+
+    .coding-icons{
+        padding: 90px;
+        margin-left: 50px;
+        margin-top: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;;
+        padding: 80px;
+
+    }
+
+    .headshot{
+        width: 50;
+        border-radius: 150px;
+        width: 300px;
+        border-radius: 150px;
+        display: inline-block;
+        align-items: center;
+        margin-top: 80px;
+
+    }
+
+    .sub-section{
+        padding: 50px;
+    }
+
+}
+
+@media (max-width: 750px) {
+    .coding-logos {
+        width: 90px;
+        height: 90px;
+
+    }
+    .coding-icons{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;;
+        padding: 10px;
+        margin: 0;
+    }
+    #about-me{
+        flex-direction: column;
+    }
+    .headshot{
+        display: none;
+    }
+
+    .info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .headshot2{
+        width: 300px;
+        border-radius: 150px;
+        display: inline-block;
+        align-items: center;
+    }
+    .headshot-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+    }
+}
+
+
+@media (max-width: 700px) {
+
+    .coding-logos {
+        width: 50%; /* Show two logos per row on smaller screens */
+        width: 70px;
+        height: 70px;
+    }
+    .coding-icons{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;;
+        padding: 10px;
+        margin: 10;
+    }
+    .about-me-text{
+        font-size: 18px;
+    }
+
+    .coding-icons{
+        padding: 10px;
+    }
+
+    .sub-section-alternative{
+        padding: 10px;
+    }
+    h1{
+        font-size: 50px;
+    }
+}
+
+@keyframes spin-pause {
+    0%, 100% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(360deg); /* Spin halfway (180 degrees) */
+    }
+    75% {
+        transform: rotate(360deg); /* Pause for 3 seconds (75% of total time) */
+    }
+    100% {
+        transform: rotate(360deg); /* Return to original position (100% of total time) */
+    }
+}
+
+
+.stars-container {
+    position: relative;
+    height: 50vh; /* Adjust the height to fit your design */
+    background-color: #000; /* Set your stars container background color */
+    overflow: hidden; /* Hide overflowing stars */
+}
+
+.star {
+    position: absolute;
+    width: 2px; /* Adjust the star width */
+    height: 2px; /* Adjust the star height */
+    background-color: #fff; /* Set star color */
+    opacity: 0; /* Initially make stars invisible */
+    animation: fall 5s linear infinite; /* Customize animation duration and timing */
+}
+
+@keyframes fall {
+    0% {
+        transform: translateY(-100%);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(5vh);
+        opacity: 0;
+    }
+}
+
+/* Generate stars */
+.stars-container:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 20%;
+    pointer-events: none;/
+    z-index: -1;
+}
+
+
+.star:nth-child(2) {
+    left: 20%;
+    animation-delay: 0s;
+}
+
+/* Add more .star:nth-child(n) rules for additional stars */
+
+  
+
+
+  
+
