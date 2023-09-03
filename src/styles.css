@@ -606,6 +606,12 @@ height: fit-content;
     margin-bottom: 20px;
 }
 
+.headshot2{
+    height: 150px;
+    width: 150px;
+    margin-top: 10PX;
+}
+
 footer{
     margin-top: 20px;
     align-items: center;
