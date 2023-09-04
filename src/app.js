@@ -84,4 +84,7 @@ function submitForm() {
   return false;
 }
   
-  
+document.addEventListener("DOMContentLoaded", function() {
+  const hero = document.querySelector(".hero");
+  hero.classList.add("active"); // Add the "active" class to trigger the animation
+});

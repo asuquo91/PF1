@@ -144,7 +144,21 @@ p {
     height: 100%;
     justify-content: space-between;
     align-items: center;
+    
 }
+/* Style for the hero text */
+.hero-text {
+
+    opacity: 0; /* Initially make the text transparent */
+    transform: translateY(400px); /* Move the text down */
+    transition: opacity 1s ease, transform 1s ease; /* Apply transitions */
+  }
+  
+  /* Add an animation when the hero text slides in */
+  .hero.active .hero-text {
+    opacity: 1; /* Make the text fully visible */
+    transform: translateY(0); /* Reset the transform to slide in */
+  }
 
 .hero-text {
     margin-left: 10vw;
