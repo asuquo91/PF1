@@ -151,7 +151,7 @@ p {
 
     opacity: 0; /* Initially make the text transparent */
     transform: translateY(400px); /* Move the text down */
-    transition: opacity 1s ease, transform 1s ease; /* Apply transitions */
+    transition: opacity 1.5s ease, transform 1.5s ease; /* Apply transitions */
   }
   
   /* Add an animation when the hero text slides in */
