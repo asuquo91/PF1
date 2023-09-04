@@ -71,5 +71,13 @@ function randomInRange(min, max) {
   
   // Call initStars to generate stars when the script is loaded
   initStars();
+
+  function submitForm() {
+    // Display the success message
+    document.getElementById('success-message').style.display = 'block';
+    
+    // Prevent the form from submitting
+    return false;
+  }
   
   

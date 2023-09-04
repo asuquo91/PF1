@@ -110,10 +110,12 @@
       </div>
     </section>
     <footer id="contact">
+      <div id="success-message" style="display: none;">Message submitted successfully!</div>
+
       <h3>
         Contact Me
       </h3>
-      <form id="contact-form" action="https://formsubmit.co/ben.entirefm@gmail.com" method="POST">
+      <form id="contact-form" action="https://formsubmit.co/ben.entirefm@gmail.com" method="POST" onsubmit="return submitForm();">
         <input type="text" name="name" placeholder="Name" required>
         <input type="email" name="email" placeholder="Email" required>
         <textarea name="text" placeholder="Write your message here" required></textarea>
