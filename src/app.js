@@ -30,9 +30,14 @@ function randomInRange(min, max) {
   // Function to create a new star element with randomized animation properties
   function createStar() {
     const star = document.createElement("div");
-    const size = Math.random() * 2; // Adjust the size range of stars
+    let size = Math.random() * 2; // Adjust the size range of stars
     const duration = Math.random() * 80 + 5; // Adjust the duration of the animation
     const initialOpacity = Math.random(); // Random initial opacity
+  
+    // Check window.innerWidth and adjust star size if it's under 700px
+    if (window.innerWidth < 700) {
+      size /= 2; // Halve the size for smaller screens
+    }
   
     star.style.width = size + "px";
     star.style.height = size + "px";
@@ -66,4 +71,5 @@ function randomInRange(min, max) {
   
   // Call initStars to generate stars when the script is loaded
   initStars();
+  
   
