@@ -683,6 +683,7 @@ footer{
 
 .hero-area{
     height: 60vh;
+    width: 100vw;
     display: flex;
     justify-content: flex-end;
     align-items: end;
@@ -691,6 +692,8 @@ footer{
 
 .hero-text{
     margin-bottom: 50px;
+    margin-left: 5vh;
+    margin-right: 10vw;
 
 }
 
