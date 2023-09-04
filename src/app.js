@@ -1,8 +1,23 @@
-const hamburgerButton = document.getElementById('hamburger')
-const navList = document.getElementById('nav-list')
+const hamburgerButton = document.getElementById('hamburger');
+const navList = document.getElementById('nav-list');
+const logo = document.getElementById('logo'); // Select the logo element
 
 function toggleButton() {
-    navList.classList.toggle('show')
+  navList.classList.toggle('show');
+
+  // Get the <i> element inside the button
+  const iconElement = hamburgerButton.querySelector('i');
+
+  // Toggle the Font Awesome classes
+  if (iconElement.classList.contains('fa-bars')) {
+    iconElement.classList.remove('fa-bars');
+    iconElement.classList.add('fa-x');
+    logo.style.display = 'none'; // Hide the logo
+  } else {
+    iconElement.classList.remove('fa-x');
+    iconElement.classList.add('fa-bars');
+    logo.style.display = 'block'; // Show the logo
+  }
 }
 
 hamburgerButton.addEventListener('click', toggleButton)

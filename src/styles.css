@@ -210,8 +210,8 @@ border-top: #201919 solid 3px;
 }
 
 .coding-logos {
-    width: 201px;
-    height: 201px
+    width: 120px;
+    height: 120px
 ;
     animation: spin-pause 6s linear infinite; /* 10s spin + 3s pause */
 
@@ -221,11 +221,11 @@ border-top: #201919 solid 3px;
 
 .project-card {
     width: 700px;
-    height: 700px;
+    height: 600px;
     padding: 10px;
     box-shadow: 5px 5px 20px #888888;
     margin: 20px;
-    border-radius: 350px;
+    border-radius: 100px;
     text-decoration: none;
     display: flex;
 }
@@ -324,8 +324,8 @@ display: none;
         background-color: transparent;
         color: white;
         font-size: 80px;
-        margin-right: 50px;
-        margin-top: 30px;
+        margin-right: 70px;
+        margin-top: 70px;
         align-self: self-start;
     }
 
@@ -399,13 +399,14 @@ display: none;
         display: flex;
         justify-content: space-between;
         align-items: center;
+        height: 300px;
 
     }
 
 .project-card{
     width: 600px;
     height: 400px;
-    border-radius: 300px;
+    border-radius: 100px;
     margin: 10px;
     text-decoration: none;
     box-shadow: none;
@@ -445,7 +446,8 @@ hr{
 .logo{
     margin: 10px;
     margin-left: 3vh;
-    margin-top: 3vh;
+    margin-top:;
+    margin-bottom: 70px;
 }
 
 .headshot{
@@ -472,8 +474,8 @@ hr{
     }
     .project-card{
         width: 700px;
-        height: 700px;
-        border-radius: 350px;
+        height: 550px;
+        border-radius: 100px;
    
     }
 
@@ -634,12 +636,25 @@ footer{
     padding: 0px;
 }
 
+.hero-area{
+    height: fit-content;
+}
+
 .hero-text{
     margin-bottom: 50px;
 }
 
+nav {
+    height: 200px;
+    z-index: 1000;
+}
+
+#nav-list{
+    z-index: 1000;
+}
+
 .socials{
-    margin-bottom: 50px;
+
 }
 h1{
     font-size: 30px;
@@ -657,6 +672,8 @@ h1{
     height: 80px;
     width: 80px;
     border-radius: 40px;
+    margin-top: 0px;
+    margin-bottom: 70px;
 }
 
 .hamburger{
