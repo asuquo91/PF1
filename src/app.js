@@ -60,7 +60,7 @@ function randomInRange(min, max) {
   
     // Check screen width and adjust numberOfStars if it's under 700px
     if (window.innerWidth < 700) {
-      numberOfStars = 500; // Adjust the number of stars for smaller screens
+      numberOfStars = 1000; // Adjust the number of stars for smaller screens
     }
   
     for (let i = 0; i < numberOfStars; i++) {
