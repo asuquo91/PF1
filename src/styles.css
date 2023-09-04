@@ -734,7 +734,7 @@ h1{
         opacity: 1;
     }
     100% {
-        transform: translateY(5vh);
+        transform: translateY(4vh);
         opacity: 0;
     }
 }
