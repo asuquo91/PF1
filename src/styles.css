@@ -160,6 +160,8 @@ p {
     border: #ffffff solid 3px;
     padding: 8px;
     border-radius: 60px;
+    background-color: #121712ff;
+    z-index: 1000;
 }
 
 .social{
