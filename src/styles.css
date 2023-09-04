@@ -682,11 +682,16 @@ footer{
 }
 
 .hero-area{
-    height: fit-content;
+    height: 60vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+
 }
 
 .hero-text{
     margin-bottom: 50px;
+
 }
 
 nav {
