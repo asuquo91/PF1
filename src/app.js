@@ -81,7 +81,7 @@ function submitForm() {
   document.getElementById('contact-form').reset();
 
   // Prevent the form from submitting
-  return false;
+  // return false;
 }
   
 document.addEventListener("DOMContentLoaded", function() {
