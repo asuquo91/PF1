@@ -296,9 +296,9 @@ border-top: #201919 solid 3px;
 }
 
 .project-image{
-    width: 200px;
-    height: 200px;
-    border-radius: 125px;
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
     border: #201919 solid 3px;
     text-decoration: none;
 }
